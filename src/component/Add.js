@@ -12,7 +12,7 @@ function Add() {
   }
   function addTask() {
       let input=document.getElementById('mytext')
-      if(input.value=="")
+      if(input.value==="")
          alert("Please enter some text")
       else{
         fetch("http://localhost:3000/task", {
