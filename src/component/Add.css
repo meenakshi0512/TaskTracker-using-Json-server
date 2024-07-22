@@ -1,0 +1,44 @@
+.addnewtask{
+    margin:20px 30px;
+    margin-bottom:10px;
+    border:1px solid white;
+    border-radius:8px;
+    background-color:white;
+    margin-bottom:20px;
+}
+.fa-plus,.fa-rotate-right{
+    color:rgb(9, 32, 134);
+    height:0px;
+    width:0px;
+    padding-left:10px;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#mytext{
+    margin:0px 30px;
+    border:none;
+    border-radius:4px;
+    width:1200px;
+    height:45px;
+    font-size:15px;
+}
+::placeholder{
+    color:rgb(9, 32, 134);
+}
+.fa-repeat{
+    padding:10px 0px;
+    padding-left:15px;
+}
+#btn{
+    margin-left:1150px;
+    padding:3px 20px;
+    border-radius:8px;
+    border:1px solid rgb(226, 223, 223);
+    background-color:rgb(9, 32, 134);
+    color:white;
+    font-size:15px;
+}
+.add-btn{
+    display:none;
+}

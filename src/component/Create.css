@@ -1,0 +1,25 @@
+.work{
+    display:flex;
+    margin:20px 30px;
+    margin-bottom:10px;
+    border:1px solid white;
+    border-radius:8px;
+    background-color:white;
+    margin-bottom:20px;
+    height:40px;
+}
+.check{
+    margin:10px;
+    color:red;
+}
+.label{
+    margin:10px 20px;
+    color:rgb(9, 32, 134);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+}
+.fa-trash{
+    color:rgb(9, 32, 134);
+    margin:10px 20px;
+    font-size:20px;
+}

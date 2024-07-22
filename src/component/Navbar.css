@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+}
+.navbar{
+    height:55px;
+    background-color:rgb(9, 32, 134);
+    border:1px solid rgb(156, 111, 197);
+    border-radius:5px;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu{
+    display:flex;
+}
+.fa-bars{
+    padding:10px 20px;
+    color:black;
+}
+.today-menu{
+    padding:10px 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
