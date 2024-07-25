@@ -5,10 +5,9 @@ import './Create.css';
 export default function Create(){
     const[task,setTask]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:3000/task")
+        fetch("https://meenakshi0512.github.io/project-data/db.json")
         .then(response=>response.json())
-        .then(value=>setTask(value))
-    })
+        .then(value=> setTask(value.task))})
     let taskList=task.map((ele)=>{
         let taskID=`id${ele.id}`
     return(

@@ -15,15 +15,14 @@ function Add() {
       if(input.value==="")
          alert("Please enter some text")
       else{
-        fetch("http://localhost:3000/task", {
+        fetch("https://meenakshi0512.github.io/project-data/db.json", {
           method: "POST",
           header: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
             id: "5",
-            work: input.value,
-            checked: "false"
+            work: input.value
           })
         })
           .then((res) => res.json())

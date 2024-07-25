@@ -2,7 +2,7 @@ import './Create.css';
 function Update({id}){
    function handleClick(){
         let x=prompt("Enter Newtask")
-        fetch(`http://localhost:3000/task/${id}`,{
+        fetch("https://meenakshi0512.github.io/project-data/db.json",{
            method:'PUT',
            headers:{
               "Content-Type":"application/json"

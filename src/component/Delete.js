@@ -1,7 +1,7 @@
 import './Create.css';
 function Delete({id}){
     function handleClick(){
-        fetch(`http://localhost:3000/task/${id}`,{
+        fetch("https://meenakshi0512.github.io/project-data/db.json",{
             method:'DELETE'
         })
         .then(response=>response.json())
